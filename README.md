@@ -4,18 +4,18 @@
 ## Installation
 
 #### Requirements
-* Python 2.7
-* Vagrant
-* VirtualBox
+Prior to the project, the following software has to be installed
+* [Vagrant](https://www.vagrantup.com/downloads.html)
+* [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
+* [Git](https://git-scm.com/downloads)
 
 #### Setup
-* Download the VM
-* Download the database, unzip it and move it to your vagrant directory
+* Clone the nanodegree [repo](https://github.com/udacity/fullstack-nanodegree-vm)
 
 #### Run this project
-* run vagrant in vm via **vagrant up** 
-* login to vm via **vagrant ssh** and change into vagrant dir
-* place the python script in your vagrant directory and run it via `./script.py` 
+* Navigate to the vagrant folder via `cd fullstack/vagrant` and launch vagrant using **vagrant up** 
+* Login to VM via **vagrant ssh** and change into vagrant diriectory `cd /vagrant`
+* Place `script.py` in your vagrant directory and run it via `./script.py` 
 
 ## Database
 
