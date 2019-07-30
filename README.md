@@ -3,7 +3,7 @@
 
 ## Installation
 
-#### You will need
+#### Requirements
 * Python 2.7
 * Vagrant
 * VirtualBox
