@@ -24,6 +24,7 @@ The articles table includes the articles:
 Indexes:
     "articles_pkey" PRIMARY KEY, btree (id)
     "articles_slug_key" UNIQUE CONSTRAINT, btree (slug)
+    
 Foreign-key constraints:
     "articles_author_fkey" FOREIGN KEY (author) REFERENCES authors(id)
 
@@ -40,6 +41,7 @@ The authors table includes information about the authors of articles.
 
 Indexes:
     "authors_pkey" PRIMARY KEY, btree (id)
+    
 Referenced by:
     TABLE "articles" CONSTRAINT "articles_author_fkey" FOREIGN KEY (author) REFERENCES authors(id)
 
