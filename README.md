@@ -10,8 +10,9 @@ The database contains the following tables, variables and relations:
 
 The articles table includes the articles:
 
+
  Column |           Type           |         Modifiers                       
---------+------------------------------------------------------------
+--------|--------------------------|---------------------------------
  author | integer                  | not null
  title  | text                     | not null
  slug   | text                     | not null
@@ -32,7 +33,7 @@ Foreign-key constraints:
 The authors table includes information about the authors of articles.
 
  Column |  Type   |                      Modifiers                       
---------+---------+------------------------------------------------------
+--------|---------|------------------------------------------------------
  name   | text    | not null
  bio    | text    | 
  id     | integer | not null default nextval('authors_id_seq'::regclass)
@@ -48,7 +49,7 @@ Referenced by:
 The log table includes one entry for each time a user has accessed the site.
 
  Column |           Type           |                    Modifiers                     
---------+--------------------------+--------------------------------------------------
+--------|--------------------------|--------------------------------------------------
  path   | text                     | 
  ip     | inet                     | 
  method | text                     | 
