@@ -1,6 +1,21 @@
 # Logs Analysis
  This is the first project of the Udacity Full Stack Nanodegree. In this project, a large database with over a million logs is analyzed.
 
+## Installation
+
+#### You will need
+* Python 2.7
+* Vagrant
+* VirtualBox
+
+#### Setup
+* Download the VM
+* Download the database, unzip it and move it to your vagrant directory
+
+#### Run this project
+* run vagrant in vm via **vagrant up** 
+* login to vm via **vagrant ssh** and change into vagrant dir
+* place the python script in your vagrant directory and run it via `./script.py` 
 
 ## Database
 
